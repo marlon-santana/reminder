@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "reminder-app",
+    "slug": "reminder-app",
+    "version": "1.0.0",
+    "notification": {
+      "icon": "./assets/icon.png",
+      "sound": "./assets/alarm.mp3"
+    },
+    "android": {
+      "permissions": ["VIBRATE", "RECEIVE_BOOT_COMPLETED", "SCHEDULE_EXACT_ALARM"]
+    }
+  }
+}
